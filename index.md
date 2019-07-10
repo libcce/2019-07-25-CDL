@@ -52,13 +52,7 @@ are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
+<h4>This workshop is now full.</h4>
 {% endif %}
 
 
